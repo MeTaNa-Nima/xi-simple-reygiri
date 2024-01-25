@@ -1,0 +1,25 @@
+@media (max-width: 425px) {
+	div#results_container{
+		overflow: auto;
+	}
+}
+.search-form {
+    max-width: calc(100vw - 8em);
+    margin: 0 auto 3em;
+    font-family: "Yekan", Sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.search-form-inputs {
+    display: flex;
+    gap: 10px;
+}
+.search-form-header {
+	text-align: center;
+}
+.search-results-table {
+    text-align: center;
+    font-family: "Yekan", Sans-serif;
+}
